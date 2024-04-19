@@ -1,6 +1,6 @@
 rootProject.name = 'awesome_notifications'
 sourceControl {
-    gitRepository(new URI("https://github.com/guardian-dev03/notification-core.git")) {
-        producesModule("me.carda:AndroidAwnCore")
+    gitRepository(new URI("https://github.com/guardian-dev03/AndroidAwnCore.git")) {
+        producesModule("me.carda.awesome_notifications.core:core")
     }
 }

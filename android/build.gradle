@@ -43,9 +43,9 @@ android {
 
 dependencies {
 //    implementation project(':awn_core')
-    implementation('me.carda:AndroidAwnCore'){
+    implementation('me.carda.awesome_notifications.core:core') {
         version {
-            branch = 'master'
+            branch = '0.8.2-forked'
         }
     }
 
