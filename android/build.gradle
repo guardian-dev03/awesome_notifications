@@ -42,12 +42,7 @@ android {
 }
 
 dependencies {
-//    implementation project(':awn_core')
-    implementation('me.carda.awesome_notifications.core:core') {
-        version {
-            branch = '0.8.2-forked'
-        }
-    }
+    implementation 'com.github.guardian-dev03:AndroidAwnCore:0.8.2-forked'
 
     implementation 'com.google.guava:guava:31.1-android'
 
