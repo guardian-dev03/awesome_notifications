@@ -45,7 +45,7 @@ dependencies {
 //    implementation project(':awn_core')
     implementation('me.carda:AndroidAwnCore'){
         version {
-            branch = '0.8.2-forked'
+            branch = 'master'
         }
     }
 
